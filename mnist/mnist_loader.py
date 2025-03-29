@@ -110,6 +110,7 @@ class MNISTDataset:
             self.flatten_images()
         return self.train_X_flat, self.train_y, self.test_X_flat, self.test_y
 
+
 mnist_data = MNISTDataset()
 
 mnist_data.display_samples()
