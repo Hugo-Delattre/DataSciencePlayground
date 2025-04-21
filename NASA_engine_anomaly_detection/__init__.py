@@ -7,10 +7,10 @@ from sklearn.model_selection import train_test_split, KFold
 from sklearn.ensemble import IsolationForest
 from sklearn.metrics import confusion_matrix, classification_report, precision_recall_curve
 from sklearn.metrics import roc_curve, auc, precision_score, recall_score, f1_score
-import tensorflow as tf
-from tensorflow import keras
-from keras.model import Sequential, Model
-from keras.layers import Dense, Dropout, Input
+# import tensorflow as tf
+# from tensorflow import keras
+# from keras.model import Sequential, Model
+# from keras.layers import Dense, Dropout, Input
 import plotly.express as px
 import plotly.graph_objects as go
 import warnings
@@ -233,9 +233,6 @@ def explore_data(train_df, test_df, feature_cols):
     plt.close()
 
     print("Analyse exploratoire terminée. Les graphiques seraient affichés dans un notebook réel.")
-
-    # Création d'une visualisation interactive de la dégradation (simulation)
-    print("Dans un notebook réel, une visualisation interactive serait créée ici.")
 
 
 # Analyse exploratoire
@@ -999,11 +996,11 @@ Hugo Delattre - [hugo.delattre@epitech.eu](mailto:hugo.delattre@epitech.eu)
     print("Fichier README.md créé")
 
 # Création des fichiers pour le déploiement
-create_flask_api()
-create_dockerfile()
-create_requirements()
-create_test_script()
-create_readme()
+# create_flask_api()
+# create_dockerfile()
+# create_requirements()
+# create_test_script()
+# create_readme()
 
 # PARTIE 9: VISUALISATION INTERACTIVE DES RÉSULTATS (DEMO)
 # -----------------------------------------------------------------------------
@@ -1054,7 +1051,7 @@ Ce dashboard serait déployé en parallèle de l'API et accessible via un naviga
     print("Description du dashboard créée dans dashboard_demo.md")
 
 # Création de la démonstration du dashboard
-create_dashboard_demo()
+# create_dashboard_demo()
 
 # PARTIE 10: CONCLUSION ET POINTS À DÉVELOPPER
 # -----------------------------------------------------------------------------
@@ -1120,7 +1117,7 @@ encore plus intelligent et intégré.
     print("Fichier conclusion.md créé")
 
 # Création de la conclusion
-create_conclusion()
+# create_conclusion()
 
 print("\nPROJET TERMINÉ!")
 print("Tous les fichiers ont été créés avec succès.")
