@@ -84,6 +84,6 @@ df2.head()  # Pour voir les premières lignes du df
 df2.tail()  # Pour voir les dernières lignes du df
 
 ser_col1 = df2["Col1"] > 0
-ser_col1.value_counts()  # Pour voir le nombre de valeurs True et False dans la série
+ser_col1.value_counts()  # Pour voir le nombre de fois que chaque éléments du row est présent dans la série, 
 sum(ser_col1)  # équivalent car true = 1 et false = 0 donc ça retourne le nombre de True
 len(ser_col1)  # et ça pour voir le nombre total de valeurs
