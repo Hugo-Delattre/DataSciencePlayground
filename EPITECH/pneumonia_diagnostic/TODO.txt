@@ -1,0 +1,4 @@
+Les résultats matrice de confusion j'ai beaucoup de vrais positifs mais beaucoup de faux négatifs
+- Rééquilibrer mon dataset via rééchantillonage
+- Passer à SVM et/ou Random forest
+Cf Grok

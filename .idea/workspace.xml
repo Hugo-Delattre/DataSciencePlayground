@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="794baf10-457a-4acf-9e4d-68652f81488a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EPITECH/pneumonia_diagnostic/knn_pneumonia_diagnostic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/EPITECH/pneumonia_diagnostic/knn_pneumonia_diagnostic.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,7 +61,7 @@
       <workItem from="1746305434190" duration="280000" />
       <workItem from="1746446284050" duration="4427000" />
       <workItem from="1747125464098" duration="50000" />
-      <workItem from="1747125537102" duration="1455000" />
+      <workItem from="1747125537102" duration="2652000" />
     </task>
     <servers />
   </component>
